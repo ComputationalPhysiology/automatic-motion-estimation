@@ -20,24 +20,23 @@ here = Path(__file__).absolute().parent
 datadir = here / "data"
 
 
+mps_paths = (
+    datadir / "Count00000_Point2C_ChannelBF_Seq0015.npy",
+    datadir / "bayK/control_10690/20211126-GCaMP80HCF20-BayK_Stream_B01_s1_TL-20.npy",
+)
+
 mps_paths_orig = (
-    datadir / "PointH4A_ChannelBF_VC_Seq0018.nd2",
+    datadir / "Count00000_Point2C_ChannelBF_Seq0015.nd2",
     datadir / "bayK/control_10690/20211126-GCaMP80HCF20-BayK_Stream_B01_s1_TL-20.tif",
 )
 
-mps_paths = (
-    datadir / "PointH4A_ChannelBF_VC_Seq0018.npy",
-    datadir
-    / "bayK_low_res/control_10690/20211126-GCaMP80HCF20-BayK_Stream_B01_s1_TL-20.npy",
-)
-
 first_beat_start = (40, 150)
-first_beat_end = (100, 350)
+first_beat_end = (85, 350)
 
-DEFAULT_REFERENCE_FRAMES = (130, 747)
+DEFAULT_REFERENCE_FRAMES = (162, 747)
 
 # assert mps_path.is_file(), f"File {mps_path} does not exist"
-DEFAULT_SPACING = 5
+DEFAULT_SPACING = (1, 5)
 figdir = here / "figures"
 figdir.mkdir(exist_ok=True)
 
