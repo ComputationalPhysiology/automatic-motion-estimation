@@ -17,10 +17,6 @@ parts:
     - file: "filtering.ipynb"
     - file: "down_sampling.ipynb"
 
-  - caption: Drug effects
-    chapters:
-    - file: "drugs.ipynb"
-
   - caption: Appendix
     chapters:
     - file: "reference_frame.ipynb"
