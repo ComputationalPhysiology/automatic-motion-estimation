@@ -15,7 +15,6 @@ parts:
     chapters:
     - file: "mean_traces.ipynb"
     - file: "filtering.ipynb"
-    - file: "down_sampling.ipynb"
 
   - caption: Appendix
     chapters:

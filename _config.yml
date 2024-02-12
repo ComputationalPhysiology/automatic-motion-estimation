@@ -35,6 +35,7 @@ parse:
 
 sphinx:
   config:
+    nb_execution_show_tb: True
     html_last_updated_fmt: "%b %d, %Y"
   extra_extensions:
   - 'sphinx.ext.autodoc'
