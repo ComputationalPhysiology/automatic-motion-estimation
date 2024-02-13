@@ -4,20 +4,19 @@ root: README
 parts:
   - caption: Setup
     chapters:
-    - file: "install.ipynb"
     - file: "download_data.ipynb"
 
   - caption: Verification
     chapters:
-    - file: "verification.ipynb"
+    - file: "notebooks/verification.ipynb"
 
   - caption: Displacement and velocity estimation
     chapters:
-    - file: "mean_traces.ipynb"
-    - file: "filtering.ipynb"
+    - file: "notebooks/mean_traces.ipynb"
+    - file: "notebooks/filtering.ipynb"
 
   - caption: Appendix
     chapters:
-    - file: "reference_frame.ipynb"
-    - file: "spacing.ipynb"
-    - file: "motion_fl.ipynb"
+    - file: "notebooks/reference_frame.ipynb"
+    - file: "notebooks/spacing.ipynb"
+    - file: "notebooks/motion_fl.ipynb"

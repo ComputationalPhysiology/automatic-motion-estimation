@@ -13,6 +13,7 @@ dependencies = [
     "imageio-ffmpeg",
     "requests",
     "tqdm",
+    "jupyter",
 ]
 
 
