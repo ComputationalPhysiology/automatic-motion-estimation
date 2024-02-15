@@ -46,13 +46,11 @@ def download_dataset(datadir, full_resolution: bool = False, overwrite: bool = F
     if path.exists() and not overwrite:
         print(f"File {path} already exists. Skipping download.")
     else:
+        Path(datadir).mkdir(exist_ok=True, parents=True)
         download(path=path, link=link)
 
 
 def main():
-    datadir = Path("data")
-    datadir.mkdir(exist_ok=True)
-
     download_dataset(datadir=datadir, full_resolution=True)
 
 
