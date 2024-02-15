@@ -1,4 +1,4 @@
-FROM ghcr.io/computationalphysiology/automatic-motion-estimation-hiPSC-CM-lab:latest
+FROM ghcr.io/computationalphysiology/automatic-motion-estimation-lab:latest
 
 # Create user with a home directory
 ARG NB_USER
