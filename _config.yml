@@ -20,7 +20,7 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ComputationalPhysiology/automatic-motion-estimation-hiPSC-CM # Online location of your book
+  url: https://github.com/ComputationalPhysiology/automatic-motion-estimation # Online location of your book
   branch: main
 
 html:
