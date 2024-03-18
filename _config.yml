@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "MPS software update"
+title: "Automatic motion estimation with applications to hiPSC-CMs"
 author: Henrik Finsberg
 copyright: "Simula Research Laboratory 2023"
 only_build_toc_files: true

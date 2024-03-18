@@ -3,6 +3,7 @@
 This repository contains supplementary code for reproducing results in the paper
 >
 
+Output of rendered notebooks are found at <https://computationalphysiology.github.io/automatic-motion-estimation/README.html>.
 
 The code is heavily based on the library [`mps-motion`](https://github.com/ComputationalPhysiology/mps_motion). Please check out the [documentation](https://computationalphysiology.github.io/mps_motion/) in that library for more details.
 
