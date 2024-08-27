@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/699045305.svg)](https://zenodo.org/doi/10.5281/zenodo.13379848)
 # Supplementary code for the paper Automatic motion estimation with applications to hiPSC-CMs
 
 This repository contains supplementary code for reproducing results in the paper
@@ -43,3 +44,15 @@ To run the notebooks, one can use `ghcr.io/computationalphysiology/automatic-mot
 docker run -ti -p 8888:8888 --rm ghcr.io/computationalphysiology/automatic-motion-estimation-lab:latest
 ```
 to run interactively with Jupyter lab in browser.
+
+## Citing
+If you use this code in your research, please cite the following paper
+```
+@article{10.1088/2057-1976/ad7268,
+	author={Finsberg, Henrik Nicolay Topnes and Charwat, Verena and Healy, Kevin E and Wall, Samuel},
+	title={Automatic motion estimation with applications to hiPSC-CMs},
+	journal={Biomedical Physics & Engineering Express},
+	url={http://iopscience.iop.org/article/10.1088/2057-1976/ad7268},
+	year={2024},
+}
+```
