@@ -37,11 +37,11 @@ def download(path, link, desc=None):
 
 def download_dataset(datadir, full_resolution: bool = False, overwrite: bool = False):
     if full_resolution:
-        link = "https://www.dropbox.com/scl/fi/d885qvngi3oqfdc8fnxin/Count00000_Point2C_ChannelBF_Seq0015.nd2?rlkey=yb9dmf3zj597idte89cba73wx&dl=1"
+        link = "https://zenodo.org/records/13929568/files/Count00000_Point2C_ChannelBF_Seq0015.nd2?download=1"
         path = datadir / "Count00000_Point2C_ChannelBF_Seq0015.nd2"
     else:
         path = datadir / "Count00000_Point2C_ChannelBF_Seq0015.npy"
-        link = "https://www.dropbox.com/scl/fi/dy9e3vqyjf57bih3i36iz/Count00000_Point2C_ChannelBF_Seq0015.npy?rlkey=2415vstljhbm2lmt1b06ytxfj&&dl=1"
+        link = "https://zenodo.org/records/13929568/files/Count00000_Point2C_ChannelBF_Seq0015.npy?download=1"
 
     if path.exists() and not overwrite:
         print(f"File {path} already exists. Skipping download.")
