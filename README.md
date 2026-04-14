@@ -1,8 +1,10 @@
-[![DOI](https://zenodo.org/badge/699045305.svg)](https://zenodo.org/doi/10.5281/zenodo.13379848)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13379849.svg)](https://doi.org/10.5281/zenodo.13379849)
+
 # Supplementary code for the paper Automatic motion estimation with applications to hiPSC-CMs
 
 This repository contains supplementary code for reproducing results in the paper
->
+> Finsberg, Henrik, et al. "Automatic motion estimation with applications to hiPSC-CMs." Biomedical Physics & Engineering Express 10.6 (2024): 065004.
+https://iopscience.iop.org/article/10.1088/2057-1976/ad7268
 
 Output of rendered notebooks are found at <https://computationalphysiology.github.io/automatic-motion-estimation/README.html>.
 
