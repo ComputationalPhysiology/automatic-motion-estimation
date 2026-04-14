@@ -24,7 +24,7 @@ dev = [
     "bump-my-version",
 ]
 docs = [
-    "jupyter-book",
+    "jupyter-book<2.0",
 ]
 
 [tool.setuptools]
